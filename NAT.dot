@@ -1,0 +1,9 @@
+digraph NAT {
+Router -> Server[label="上行数据包"]
+client1 -> Router[label="上行数据包"]
+client2 -> Router[label="上行数据包"]
+Router[shape=box label="Router\n启用NAT使多设备共用同一IP"]
+client1[shape=box]
+Server[shape=box]
+client2[shape=box]
+}

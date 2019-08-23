@@ -1,0 +1,24 @@
+graph prefix {
+node [shape=box]
+usr -- bin
+usr -- etc
+usr -- include
+usr -- lib
+usr -- share
+usr -- var
+usr -- tmp
+usr -- src
+usr -- libexec
+
+bin [label="bin\n可执行文件存放目录"]
+src [label="src\n源码存放目录"]
+tmp [label="tmp\n临时文件存放目录"]
+lib [label="lib\nC共享库与其他语言的库,模块存放目录"]
+share [label="share\n应用通用文件存放目录"]
+etc [label="etc\n配置文件存放目录"]
+include [label="include\nhead文件存放目录"]
+var [label="var\n程序运行时信息存放目录"]
+libexec [label="libexec\n一些特殊的库和程序存放目录"]
+
+}
+
